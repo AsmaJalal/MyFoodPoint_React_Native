@@ -1,13 +1,22 @@
 import React from 'react';
 import { View, StatusBar, LogBox } from 'react-native';
-import { COLORS } from './constants';
+import { COLORS } from './src/constants';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import Tabs from './navigation/tabs';
+import Tabs from './src/navigation/tabs';
 import RNBootSplash from "react-native-bootsplash";
-import { Restaurant, OrderDelivery, Cart, Order, SignUp, UpdateProfile, SignIn, ForgotPassword } from './screens';
+import { 
+  Restaurant, 
+  OrderDelivery, 
+  Cart, 
+  Order, 
+  SignUp, 
+  UpdateProfile, 
+  SignIn, 
+  ForgotPassword 
+} from './src/screens';
 import { Provider } from 'react-redux';
-import { store, persistor } from './redux/store';
+import { store, persistor } from './src/redux/store';
 import { PersistGate } from 'redux-persist/integration/react'
 
 LogBox.ignoreLogs([

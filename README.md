@@ -1,3 +1,5 @@
+# Started Project 15th November 2022
+# My Food Point
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
